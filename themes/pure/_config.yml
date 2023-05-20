@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: 鹏的乌托邦666 # 页面title
+  title: 鹏的乌托邦 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -113,7 +113,7 @@ share:
 # 项目仓库信息（将会覆盖 github 项）
 repository:
   platform: github # 托管平台（github | gitee）
-  username: cofess # 用户名
+  username: ghostborn # 用户名
 
 # Comment
 # Gitment
@@ -132,21 +132,21 @@ comment:
     ClientSecret:
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+    owner:  ghostborn #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin:  ghostborn #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo:  hexoblog_comments #必须. GitHub repository.
+    ClientID:  7b45f41f6a8622d81609 #必须. GitHub Application Client ID.
+    ClientSecret:  d76faab65417170a378b2d63eb7f77363a88909f #必须. GitHub Application Client Secret.
     enableHotKey: true
     language: zh-CN
 
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid:  'XsAFDyXBZw1m7RoJ3uBSKw8F-gzGzoHsz'  # your leancloud application appid
+    appkey:  'EiKNqjpqcQ3utWmEvIbsa7Ew' # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
-    avatar: mm # gravatar style
+    avatar: robohash # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
@@ -163,10 +163,10 @@ comment:
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
 douban:
-  user: # 豆瓣用户名
+  user: Galaxy-peng  # 豆瓣用户名
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
-  apikey: # 豆瓣apikey
+  apikey: '0df993c66c0c636e29ecbb5344252a4a 0b2bdeda43b5688921839c8ecb20399b'   # 豆瓣apikey
 
 # PV
 pv:
@@ -200,18 +200,18 @@ fb_app_id:
 profile:
   enabled: true # Whether to show profile bar
   articleSelfBlock: true # 关闭文章下方的自我介绍
-  avatar: images/avatar.jpg
+  avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: No Fear
-  author_title: Web Developer & Designer
+#  author_title: 人生如逆旅，我亦是行人
   author_description: 个人简介。
-  location: ZhongShan, China
-  follow: https://github.com/cofess
+  location: 中山
+  follow: https://weibo.com/galaxypeng
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
+      github: https://github.com/ghostborn
+      weibo: https://weibo.com/galaxypeng
       twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
@@ -244,7 +244,7 @@ profile:
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
+      link: http://43.139.212.15/
       date: 2016
   # My Personal Projects
   projects:
